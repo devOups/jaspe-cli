@@ -15,7 +15,7 @@
     "NodeJS",
     "Component"
   ],
-  "author": "quentin saieb",
+  "author": "quentin saieb  <pitoux16+jaspe@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "codecov.io": "^0.1.6",
