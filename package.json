@@ -1,0 +1,30 @@
+{
+  "name": "jaspe-cli",
+  "version": "0.0.1",
+  "description": "Line of command tool for Jaspe Framework.",
+  "main": "jaspe-cli",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Jaspe-cli",
+    "Jaspe",
+    "Framework",
+    "NodeJS",
+    "Component"
+  ],
+  "author": "quentin saieb",
+  "license": "MIT",
+  "devDependencies": {
+    "codecov.io": "^0.1.6",
+    "commander": "^2.11.0",
+    "eslint": "^4.6.1",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "istanbul": "^0.4.5",
+    "jasmine": "^2.7.0"
+  }
+}
