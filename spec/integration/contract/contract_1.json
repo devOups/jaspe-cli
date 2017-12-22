@@ -1,0 +1,32 @@
+{
+	"component": "Account",
+	"name": "AccountContract",
+	"services": [
+		{
+			"name": "CREATE",
+			"requirements": [
+				{
+					"name": "username",
+					"constraints": ["@String", "@notNull", "@notEmpty"]
+				},
+				{
+					"name": "email",
+					"constraints": ["@String", "@notNull", "@notEmpty", "@email"]
+				},
+				{
+					"name": "age",
+					"constraints":  ["@Integer", "@notNull", "@range(0, 110)"]
+				}
+			]
+		}, 
+		{
+			"name": "DELETE",
+			"requirements": [
+				{
+					"name": "accountId",
+					"constraints": ["@String", "@notNull", "@notEmpty", "@objectId"]
+				}
+			]
+		}
+	]
+}
